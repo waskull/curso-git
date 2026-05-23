@@ -5,7 +5,7 @@ if alessandra_llego_tarde:
 
 else: print("Y ese milagro?")
 
-ruben_esta_craneado_en_django = True
+ruben_esta_craneado_en_django = False
 
 if ruben_esta_craneado_en_django:
     print("Ya puede dar una clase de django")
