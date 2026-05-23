@@ -3,7 +3,7 @@ alessandra_llego_tarde = False
 if alessandra_llego_tarde:
     print("Y no es la primera vez")
 
-else: print("Y ese milagro?")
+else: print("Y ese milagro")
 
 ruben_esta_craneado_en_django = True
 
