@@ -11,3 +11,7 @@ if ruben_esta_craneado_en_django:
     print("Ya puede dar una clase de django")
 
 else: print("D:")
+
+eudis_esta_en_silencio = True
+if eudis_esta_en_silencio: print("Esta pensando")
+else: print("Silencio")
