@@ -1,24 +1,33 @@
-alessandra_llego_tarde = False
+#Condicionales
 
-if alessandra_llego_tarde:
-    print("Y no es la primera vez")
+#Elabore una solucion donde se le solicite al usuario la nota y
+#se determine si esta aprobado o no, si tiene mayor o igual a 5 
+#puntos esta aprobado, de lo contrario si tiene menos de 5 esta
+# reprobado. Se debe de validar que la nota no exceda el valor de 10
+#ni sea inferior a 0.
 
-else: print("Y ese milagro")
+nota = float(input("Ingrese la nota del estudiante: "))
 
-ruben_esta_craneado_en_django = True
+if nota > 10 or nota < 0:
+    print("Valores fuera del rango permitido")
+else:
+    if nota >= 5: 
+        print("Estas aprobado")
+    else:
+        print("Estas raspado")
 
-if ruben_esta_craneado_en_django:
-    print("Ya puede dar una clase de django")
+#Metodo 2
+if nota > 10 or nota < 0:
+    print("Valores fuera del rango permitido")
+elif nota >= 5:
+    print("Estas aprobado")
+elif nota <5:
+        print("Estas raspado")
 
-else: print("D:")
-
-eudis_esta_en_silencio = True
-if eudis_esta_en_silencio: print("Esta pensando mucho.")
-else: print("Silencio")
-
-fernando_hizo_la_tarea_tarde = True
-fernando_estaba_trabajando = True
-
-if fernando_hizo_la_tarea_tarde and fernando_estaba_trabajando:
-    print("Sospechoso")
-else: print("Sospechoso x2")
+#Metodo 3: 
+if nota > 10 or nota < 0:
+    print("Valores fuera del rango permitido")
+if nota >= 5:
+    print("Estas aprobado")
+if nota <5:
+        print("Estas raspado")
