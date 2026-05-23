@@ -13,7 +13,7 @@ if ruben_esta_craneado_en_django:
 else: print("D:")
 
 eudis_esta_en_silencio = True
-if eudis_esta_en_silencio: print("Esta pensando mucho")
+if eudis_esta_en_silencio: print("Esta pensando mucho.")
 else: print("Silencio")
 
 fernando_hizo_la_tarea_tarde = True
